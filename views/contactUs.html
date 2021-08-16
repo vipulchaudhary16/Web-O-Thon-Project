@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/contactUs.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Ask your questions here!</h2>
+        <p>Fill out this form Now! We will mail you back as soon as possible</p>
+        <form id="contact" action="/contact" method="post">
+          <label for="name">Name</label>
+          <input id="name" type="text" name="name" placeholder="Enter your Full Name"/>
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="Enter your E-mail"/>
+          <label for="purposeOfWebsite">Your Doubt</label>
+          <textarea id="purposeOfWebsite" name="purposeOfWebsite" cols="30" rows="10" placeholder="Enter your doubt here"></textarea>
+          <button class="subBtn">Submit</button>
+        </form>
+      </div>
+</body>
+</html>
